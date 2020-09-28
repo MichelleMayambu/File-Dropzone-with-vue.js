@@ -1,6 +1,5 @@
 <template>
   <div>
-    {{ addedFiles }}
     <v-card>
       <v-toolbar outlined dense color="light-blue darken-1" dark>
         <v-toolbar-title>Upload document</v-toolbar-title>

@@ -28,7 +28,7 @@ export default {
         paramName: "file",
         acceptedFiles:
           "image/jpeg,image/png,image/gif,image/*,application/pdf,image/jpeg, image/png,image/jpg",
-        dictDefaultMessage: "Drag and drop files here",
+        dictDefaultMessage: "click here to upload file",
         includeStyling: false,
         previewsContainer: false,
         thumbnailWidth: 250,

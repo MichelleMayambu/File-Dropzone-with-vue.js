@@ -27,7 +27,6 @@
                 <thead>
                   <tr>
                     <th class="text-left">{{ headers.name }}</th>
-                    <th class="text-left">{{ headers.delete }}</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -37,9 +36,7 @@
                     @click="selectedfile = i.dataurl.dataURL"
                   >
                     <td>{{ i.title }}</td>
-                    <td>
-                      <v-btn x-small dense rounded color="red" dark>x</v-btn>
-                    </td>
+                    <td></td>
                   </tr>
                 </tbody>
               </template>
